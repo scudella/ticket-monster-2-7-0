@@ -1,125 +1,192 @@
 package org.jboss.tools.examples.ticketmonster.model;
 
-import javax.persistence.Id;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import static javax.persistence.GenerationType.IDENTITY;
+
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import java.io.Serializable;
-import javax.persistence.Version;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+/**
+ * <p>
+ * Represents an event, which may have multiple performances with different dates and venues.
+ * </p>
+ * 
+ * <p>
+ * Event's principal members are it's relationship to {@link EventCategory} - specifying the type of event it is - and
+ * {@link MediaItem} - providing the ability to add media (such as a picture) to the event for display. It also contains
+ * meta-data about the event, such as it's name and a description.
+ * </p>
+ * 
+ * @author Shane Bryzak
+ * @author Marius Bogoevici
+ * @author Pete Muir
+ */
+/*
+ * We suppress the warning about not specifying a serialVersionUID, as we are still developing this app, and want the JVM to
+ * generate the serialVersionUID for us. When we put this app into production, we'll generate and embed the serialVersionUID
+ */
+@SuppressWarnings("serial")
 @Entity
 public class Event implements Serializable {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "id", updatable = false, nullable = false)
-	private Long id;
-	private static final long serialVersionUID = 1L;
-	@Version
-	@Column(name = "version")
-	private int version;
+    /* Declaration of fields */
 
-	@Column
-	@NotNull
-	@Size(min = 5, max = 50, message = "An event's name must contain between 5 and 50 characters")
-	private String name;
+    /**
+     * The synthetic ID of the object.
+     */
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    private Long id;
 
-	@Column
-	@Size(min = 20, max = 1000, message = "An event's description must contain between 20 and 1000 characters")
-	private String description;
+    /**
+     * <p>
+     * The name of the event.
+     * </p>
+     * 
+     * <p>
+     * The name of the event forms it's natural identity and cannot be shared between events.
+     * </p>
+     * 
+     * <p>
+     * Two constraints are applied using Bean Validation
+     * </p>
+     * 
+     * <ol>
+     * <li><code>@NotNull</code> &mdash; the name must not be null.</li>
+     * <li><code>@Size</code> &mdash; the name must be at least 5 characters and no more than 50 characters. This allows for
+     * better formatting consistency in the view layer.</li>
+     * </ol>
+     */
+    @Column(unique = true)
+    @NotNull
+    @Size(min = 5, max = 50, message = "An event's name must contain between 5 and 50 characters")
+    private String name;
 
-	@Column
-	private boolean major;
+    /**
+     * <p>
+     * A description of the event.
+     * </p>
+     * 
+     * <p>
+     * Two constraints are applied using Bean Validation
+     * </p>
+     * 
+     * <ol>
+     * <li><code>@NotNull</code> &mdash; the description must not be null.</li>
+     * <li><code>@Size</code> &mdash; the name must be at least 20 characters and no more than 1000 characters. This allows for
+     * better formatting consistency in the view layer, and also ensures that event organisers provide at least some description
+     * - a classic example of a business constraint.</li>
+     * </ol>
+     */
+    @NotNull
+    @Size(min = 20, max = 1000, message = "An event's description must contain between 20 and 1000 characters")
+    private String description;
 
-	@Column
-	private String picture;
+    /**
+     * <p>
+     * A media item, such as an image, which can be used to entice a browser to book a ticket.
+     * </p>
+     * 
+     * <p>
+     * Media items can be shared between events, so this is modeled as a <code>@ManyToOne</code> relationship.
+     * </p>
+     * 
+     * <p>
+     * Adding a media item is optional, and the view layer will adapt if none is provided.
+     * </p>
+     * 
+     */
+    @ManyToOne
+    private MediaItem mediaItem;
 
-	public Long getId() {
-		return id;
-	}
+    /**
+     * <p>
+     * The category of the event
+     * </p>
+     * 
+     * <p>
+     * Event categories are used to ease searching of available of events, and hence this is modeled as a relationship
+     * </p>
+     * 
+     * <p>
+     * The Bean Validation constraint <code>@NotNull</code> indicates that the event category must be specified.
+     */
+    @ManyToOne
+    @NotNull
+    private EventCategory category;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    /* Boilerplate getters and setters */
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj) {
-			return true;
-		}
-		if (!(obj instanceof Event)) {
-			return false;
-		}
-		Event other = (Event) obj;
-		if (id != null) {
-			if (!id.equals(other.id)) {
-				return false;
-			}
-		}
-		return true;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		return result;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public int getVersion() {
-		return version;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setVersion(int version) {
-		this.version = version;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public MediaItem getMediaItem() {
+        return mediaItem;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setMediaItem(MediaItem picture) {
+        this.mediaItem = picture;
+    }
 
-	public String getDescription() {
-		return description;
-	}
+    public EventCategory getCategory() {
+        return category;
+    }
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public void setCategory(EventCategory category) {
+        this.category = category;
+    }
 
-	public boolean isMajor() {
-		return major;
-	}
+    public String getDescription() {
+        return description;
+    }
 
-	public void setMajor(boolean major) {
-		this.major = major;
-	}
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-	public String getPicture() {
-		return picture;
-	}
+    /* toString(), equals() and hashCode() for Event, using the natural identity of the object */
 
-	public void setPicture(String picture) {
-		this.picture = picture;
-	}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
 
-	@Override
-	public String toString() {
-		String result = getClass().getSimpleName() + " ";
-		if (name != null && !name.trim().isEmpty())
-			result += "name: " + name;
-		if (description != null && !description.trim().isEmpty())
-			result += ", description: " + description;
-		result += ", major: " + major;
-		if (picture != null && !picture.trim().isEmpty())
-			result += ", picture: " + picture;
-		return result;
-	}
+        Event event = (Event) o;
+
+        if (name != null ? !name.equals(event.name) : event.name != null)
+            return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return name != null ? name.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
