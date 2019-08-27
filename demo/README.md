@@ -1,3 +1,5 @@
+Status of the tutorial follow-up.
+
 This is the "Building the persistence layer with JPA2 and Bean Validation" branch working in Red Hat 8. See part III of the attached ticket-monster-2.7.0.Final.pdf document.
 
 Topics covered include:
@@ -8,9 +10,8 @@ Topics covered include:
 You may run it as "Run on Server" (Jboss EAD). You are supposed to deploy h2-console.war first. Then you can check every table entry at http://localhost:8080/h2-console/ 
 See "Populating test data" at the end of Part III.
 
-n
-========================
 
+Original README:
 
 ticket-monster: Assortment of technologies including Arquillian
 ========================
