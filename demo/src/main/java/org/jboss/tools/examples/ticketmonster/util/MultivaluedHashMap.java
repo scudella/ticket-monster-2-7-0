@@ -45,4 +45,28 @@ public class MultivaluedHashMap<K, V> extends ForwardingMap<K, List<V>> implemen
         return l == null ? null : l.get(0);
     }
 
+	@Override
+	public void addAll(K arg0, V... arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addAll(K arg0, List<V> arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addFirst(K arg0, V arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean equalsIgnoreValueOrder(MultivaluedMap<K, V> arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

@@ -1,47 +1,47 @@
 -- MediaItem 0
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Weir%2C_Bob_(2007)_2.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1M3wbE0vE7CYIAmsyx0UUxKS0R4xbRsvP')
 -- MediaItem 1
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Carnival_Puppets.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1XvyvpNezYrzc-YvHUnn5tCM1Z8CIbzcL')
 -- MediaItem 2
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Opera_House_with_Sydney.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1g5y1juOjfrM8k5D4MhUfn9nS9iPJKsY0')
 -- MediaItem 3
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Roy_Thomson_Hall_Toronto.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1QyXv4zSbh4MgHNoRQlLcK8QArCfbq7xa')
 -- MediaItem 4
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-West-stand-bmo-field.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1fGK6K4PQ84a-4g_ONLTO7eA4eGWnjTPx')
 -- MediaItem 5
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/65660684/640px-Brazil_national_football_team_training_at_Dobsonville_Stadium_2010-06-03_13.jpg')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=12Mmo6gmd-exnymMqeomVPQSNaPQK6j1M')
 -- MediaItem 6
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/AllStateFootballChampionship.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1TcZUkeZI9KxgtLhEIoHwBxw8TgCdzwJ-')
 -- MediaItem 7
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/ARhythmia.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1-DeyYsn8dx49n-fjt1Vj-HgqfI44ygt6')
 -- MediaItem 8
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/BattleoftheBrassBands.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1ZfijH5pWhPB1jAP0p-D00sxAUfH6Zgk_')
 -- MediaItem 9
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/CarnivalComestoTown.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1Zs9Z1E8rn4x_HivnTztKJ87EuwfISRGH')
 -- MediaItem 10
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/ChrisLewisQuarterfinals.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1PgQJy6vcMF4bKv4Kbb4Bfr3HNC9S-h7d')
 -- MediaItem 11
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/CrewYou.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1ribLzk5A40XjbQfMSef1T-DwW5hIzV6Q')
 -- MediaItem 12
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/ExtremeSnowboardingFinals.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1xpwI1swCsX66wtgYSkHPm3l9W5NrsFqE')
 -- MediaItem 13
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/FlamencoFinale.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=17f7sNnL5pebp2nmO5zs03j2cCa3GE-iH')
 -- MediaItem 14
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/JesseLewisUnplugged.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1LbhtRcaVO5npWpl7RFumg3Cfl6loABUV')
 -- MediaItem 15
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/MadameButterfly.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1NlWIHHa3r4AJPeudWVLImaQIl5LWd1cY')
 -- MediaItem 16
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/MimeMania.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1K5MmXs3slZLiTIYb8gw1qw5g4eoxd1zK')
 -- MediaItem 17
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/MorrisonCover.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=13XtZSMeVb1YTBEKLEFjkIDvKyki9LyAo')
 -- MediaItem 18
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/TutuTchai.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1n_e5e9kWSIAfyz-dB0UcGXmFj49P10XS')
 -- MediaItem 19
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/SlapShot.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1yA_AsFpC7eYYV5dCHEuL_E4GN40kRJ7t')
 -- MediaItem 20
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/Giantsofthegame.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1Z7UVRzgSsXTMBZgx3MMtX7SUX35wv7nD')
 -- MediaItem 21
-insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://dl.dropbox.com/u/8625587/ticketmonster/Punch%26Judy.png')
+insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://drive.google.com/uc?export=download&id=1RREsfoK3ljOd3Vq21VdOZYvojKDvTese')
 -- MediaItem 22
 insert into MediaItem ( mediaType, url) values ( 'IMAGE', 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Paris_Opera_full_frontal_architecture%2C_May_2009.jpg/800px-Paris_Opera_full_frontal_architecture%2C_May_2009.jpg')
 -- MediaItem 23
@@ -174,7 +174,7 @@ insert into Event ( name, description, mediaitem_id, category_id) values ( 'Punc
 insert into Appearance ( event_id, venue_id) values ( 1, 1);
 
 -- Performance 1
-insert into Performance ( show_id, date) values ( 1, '2015-09-21 19:00:00');
+insert into Performance ( show_id, date) values ( 1, '2019-09-21 19:00:00');
 
 -- SectionAllocation 1
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (1, 1, null, 0, 1);
@@ -183,7 +183,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (1, 4, null, 0, 1);
 
 -- Performance 2
-insert into Performance ( show_id, date) values ( 1, '2015-09-22 19:00:00');
+insert into Performance ( show_id, date) values ( 1, '2019-09-22 19:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (2, 1, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (2, 2, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (2, 3, null, 0, 1);
@@ -193,7 +193,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 1, 2);
 
 -- Performance 3
-insert into Performance ( show_id, date) values ( 2, '2015-09-23 19:30:00');
+insert into Performance ( show_id, date) values ( 2, '2019-09-23 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 7, null, 0, 1);
@@ -203,7 +203,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (3, 11, null, 0, 1);
 
 -- Performance #4
-insert into Performance ( show_id, date) values ( 2, '2015-09-24 19:30:00');
+insert into Performance ( show_id, date) values ( 2, '2019-09-24 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (4, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (4, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (4, 7, null, 0, 1);
@@ -216,14 +216,14 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 2, 1);
 
 -- Performance 5
-insert into Performance ( show_id, date) values ( 3, '2015-09-25 17:00:00');
+insert into Performance ( show_id, date) values ( 3, '2019-09-25 17:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 1, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 2, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 3, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (5, 4, null, 0, 1);
 
 -- Performance 6
-insert into Performance ( show_id, date) values ( 3, '2015-09-25 19:30:00');
+insert into Performance ( show_id, date) values ( 3, '2019-09-25 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (6, 1, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (6, 2, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (6, 3, null, 0, 1);
@@ -233,7 +233,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 2, 2);
 
 -- Performance 7
-insert into Performance ( show_id, date) values ( 4, '2015-09-27 17:00:00');
+insert into Performance ( show_id, date) values ( 4, '2019-09-27 17:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 7, null, 0, 1);
@@ -243,7 +243,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (7, 11, null, 0, 1);
 
 -- Performance 8
-insert into Performance ( show_id, date) values ( 4, '2015-09-27 19:30:00');
+insert into Performance ( show_id, date) values ( 4, '2019-09-27 19:30:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (8, 5, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (8, 6, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (8, 7, null, 0, 1);
@@ -256,7 +256,7 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 3, 3);
 
 -- Performance 9
-insert into Performance ( show_id, date) values ( 5, '2015-11-01 21:00:00');
+insert into Performance ( show_id, date) values ( 5, '2019-11-01 21:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (9, 12, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (9, 13, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (9, 14, null, 0, 1);
@@ -266,14 +266,14 @@ insert into SectionAllocation(performance_id, section_id, allocated, occupiedcou
 insert into Appearance ( event_id, venue_id) values ( 1, 5);
 
 -- Performance 10
-insert into Performance ( show_id, date) values ( 6, '2015-09-21 19:00:00');
+insert into Performance ( show_id, date) values ( 6, '2019-09-21 19:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 20, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 21, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 22, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (10, 23, null, 0, 1);
 
 -- Performance 11
-insert into Performance ( show_id, date) values ( 6, '2015-09-22 19:00:00');
+insert into Performance ( show_id, date) values ( 6, '2019-09-22 19:00:00');
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (11, 20, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (11, 21, null, 0, 1);
 insert into SectionAllocation(performance_id, section_id, allocated, occupiedcount, version) values (11, 22, null, 0, 1);

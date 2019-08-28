@@ -13,9 +13,11 @@ You may run it as "Run on Server" (Jboss EAD). You are supposed to deploy h2-con
 
 You can test all Arquillian tests with maven: 
 
-$ mvn clean test -Parq-wildfly-managed
+You may have to update the dates in the import.sql file.
+
+$ mvn clean test -Parq-wildfly-managed (the server needs to be down)
 or
-$ mvn clean test -Parq-wildfly-remote
+$ mvn clean test -Parq-wildfly-remote (you need to start the server first)
 
 or you can test them with eclipse. See the document attached.
 

@@ -54,7 +54,7 @@ public class BookingServiceTest {
         bookingService.createBooking(br3);
     }
 
-    @Test @Ignore
+    @Test // @Ignore
     @InSequence(10)
     public void testGetBookings() {
         checkBooking1();
