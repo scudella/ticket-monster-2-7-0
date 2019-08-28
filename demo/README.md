@@ -1,14 +1,24 @@
 Status of the tutorial follow-up.
 
-This is the "Building the persistence layer with JPA2 and Bean Validation" branch working in Red Hat 8. See part III of the attached ticket-monster-2.7.0.Final.pdf document.
+This is the "Building The Business Services With JAX-RS" branch working in Red Hat 8. See part IV of the attached ticket-monster-2.7.0.Final.pdf document.
 
-Topics covered include:
-• RDBMS design using JPA entity beans
-• How to validate your entities using Bean Validation
-• How to populate test data
+We’ve just defined the domain model of the application and created its persistence layer. Now we need to define the services that implement the business logic of the application and expose them to the front-end. After reading this, you’ll understand how to design the business layer and what choices to make while developing it. Topics covered include:
+
+* Encapsulating business logic in services and integrating with the persistence tier
+* Using CDI for integrating individual services
+* Integration testing using Arquillian
+* Exposing RESTful services via JAX-RS
 
 You may run it as "Run on Server" (Jboss EAD). You are supposed to deploy h2-console.war first. Then you can check every table entry at http://localhost:8080/h2-console/ 
-See "Populating test data" at the end of Part III.
+
+You can test all Arquillian tests with maven: 
+
+$ mvn clean test -Parq-wildfly-managed
+or
+$ mvn clean test -Parq-wildfly-remote
+
+or you can test them with eclipse. See the document attached.
+
 
 
 Original README:
